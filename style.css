@@ -1,0 +1,627 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: rgb(201, 190, 135);
+	background-image: url(./bg/bg-home.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 7px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	text-shadow: 3px 3px rgb(16, 44, 165);
+}
+
+.products,
+.about-us,
+.contact-us {
+
+	border: 2px solid whitesmoke;
+	padding: 5px;
+
+
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.hero {
+	background-color: rgb(59, 56, 56);
+	background-size: 400px;
+	height: 300px;
+	width: 700px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px;
+
+}
+
+
+.hero h1 {
+	font-size: 35px;
+	margin-bottom: 20px;
+	text-shadow: 5px 5px rgb(16, 44, 165);
+}
+
+
+.hero p {
+
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 5px 5px rgb(16, 44, 165);
+	font-weight: bold;
+}
+
+.hero button {
+	background-color: rgb(59, 56, 56);
+	border: 0px 4px 4px 0px black;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 10px;
+
+
+}
+
+.shop-btn {
+	color: rgba(187, 219, 43, 0.64);
+	text-shadow: 3px 2px rgba(198, 20, 14, 0.539);
+
+}
+
+.hero button:hover {
+	background-color: rgb(50, 119, 159);
+}
+
+
+
+.features h2 {
+
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.features {
+
+	font-size: larger;
+	color: black;
+	font-weight: bolder;
+
+}
+
+.features li {
+	margin: 20px;
+}
+
+
+.features h3 {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.products-page {
+
+	background-image: url(./bg/bg-product-page.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cate-list,
+h3 {
+	padding-top: 10px;
+	font-size: larger;
+	color: rgb(228, 201, 201);
+	font-size: 25px;
+
+}
+
+.product-categories h2 {
+
+	font-size: 45px;
+	color: rgb(55, 219, 34);
+	text-decoration: underline;
+	text-shadow: 3px 3px rgba(113, 113, 188, 0.682);
+	text-align: center;
+
+}
+
+.product-list h2 {
+	text-align: center;
+	padding-bottom: 30px;
+	color: bisque;
+	font-size: 30px;
+	text-decoration: underline;
+	text-shadow: 3px 3px rgb(113, 113, 188);
+
+}
+
+.product-list img {
+
+	width: 200px;
+	height: 150px;
+
+}
+
+.product-list a {
+
+	font-size: larger;
+	font-weight: bold;
+	color: #3a6cbb;
+	background-color: aqua;
+	padding: 5px;
+	border-radius: 10px;
+
+}
+
+.product-list a:hover {
+
+	background-color: rgb(22, 216, 22);
+
+}
+
+.pd h3 {
+	display: inline;
+}
+
+.pd a {
+	display: flex;
+	width: 107px;
+}
+
+.pro-a {
+	font-size: large;
+	color: rgb(66, 183, 66);
+}
+
+.pro-b {
+	font-size: larger;
+	color:
+		black;
+	font-weight: bold;
+}
+
+.pro-c {
+	color: whitesmoke;
+	font-size: x-large;
+}
+
+.bg-login{
+
+	background-image: url(./bg/bg-login.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.login-form h2 {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+.login-form {
+
+	color: whitesmoke;
+	background-color: rgb(59, 56, 56);
+	height: 550px;
+	width: 500px;
+	margin-top: 50px;
+	border-radius: 10px;
+	padding-top: 50px;
+
+}
+
+.login-form label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: larger;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: large;
+}
+
+.login-form input[type="submit"] {
+	background-color: rgb(82, 82, 82);
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.login-form input[type="submit"]:hover {
+	background-color: #9f6d6d;
+}
+
+.footer {
+
+	margin-top: 190px
+}
+
+.bg-signup{
+
+	background-image: url(./bg/bg-signup.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.signup-page {
+
+	color: whitesmoke;
+	background-color: rgb(59, 56, 56);
+	height: 700px;
+	width: 500px;
+	margin-top: 50px;
+	border-radius: 10px;
+
+
+
+}
+
+.signup-page h2 {
+
+	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+	padding-bottom: 15px;
+	text-decoration: underline;
+
+}
+
+.signup-page label {
+
+	font-size: 25px;
+	font-weight: 600;
+
+	display: block;
+	margin-bottom: 10px;
+	font-size: larger;
+
+
+}
+
+.signup-page input {
+
+	font-size: large;
+	border: 5px 5px solid black;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+
+.signup-page input[type="submit"]:hover {
+	background-color: #9f6d6d;
+}
+
+
+.contact-hero {
+	background-color: rgb(59, 56, 56);
+	background-size: 400px;
+	height: 400px;
+	width: 700px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+.contact-hero h1 {
+	font-size: 35px;
+	margin-bottom: 7px;
+	text-shadow: 5px 5px rgb(16, 44, 165);
+
+}
+
+.contact-hero p {
+
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 5px 5px rgb(16, 44, 165);
+	font-weight: bold;
+	padding-bottom: 10px;
+
+}
+
+.contact-hero img {
+	width: 450px;
+	height: 280px;
+
+}
+
+.contact-form {
+	background-color: #f7f7f7;
+	padding: 50px;
+	border: 1px solid #a37878;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-image: url(./bg/contact-form.webp)
+}
+
+.contact-form label {
+
+	font-size: large;
+	font-weight: 600;
+	color: black;
+
+}
+
+.contact-form h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	color: black;
+	text-decoration: underline;
+
+}
+
+span {
+
+	border: 2px solid whitesmoke;
+	padding: 5px;
+}
+
+.send-btn {
+
+	font-size: large;
+	background-color: rgb(236, 161, 70);
+	font-weight: bold;
+
+}
+
+
+
+
+.contact-info h2,
+.social-media h2 {
+
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.contact-body {
+	background-image: url(./bg/bg-contact.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact-info,
+.social-media {
+
+	background-color: rgb(59, 56, 56);
+	background-size: 400px;
+	height: 200px;
+	width: 400px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px;
+}
+
+.social-media a {
+
+
+	font-size: large;
+	color: rgb(66, 183, 66);
+
+}
+
+.about-body {
+
+	background-image: url(./bg/bg-about.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.about-hero {
+	background-color: rgb(59, 56, 56);
+	background-size: 400px;
+	height: 550px;
+	width: 700px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px;
+}
+
+
+.about-hero h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.about-hero img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.about-hero h1 {
+	font-size: 35px;
+	margin-bottom: 20px;
+	text-shadow: 5px 5px rgb(16, 44, 165);
+}
+
+.about-hero p {
+
+
+
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 5px 5px rgb(16, 44, 165);
+	font-weight: bold;
+
+}
+
+.our-story,
+.testimonials,
+.team {
+
+	color: black;
+	font-weight: bolder;
+	font-size: large;
+
+}
+
+.team img {
+
+	height: 100px;
+	width: 100px;
+}
+
+
+.team p {
+
+	padding-bottom: 10px;
+}
+
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.product1 {
+
+	background-image: url(./bg/product-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.product2 {
+	background-image: url(./bg/product2-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.product3 {
+	background-image: url(./bg/product3-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.product-buy-btn {
+
+	
+	
+	border-radius: 10px;
+	
+}
+
+.pro1 {
+
+	background-color: rgb(59, 56, 56);
+	height: 350px;
+	width: 600px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px
+}
+
+.pro1 {
+
+	background-color: rgb(59, 56, 56);
+	height: 370px;
+	width: 600px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px
+}
+
+.pro2 {
+
+	background-color: rgb(59, 56, 56);
+	height: 370px;
+	width: 600px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px
+}
+
+.pro3 {
+
+	background-color: rgb(59, 56, 56);
+	height: 370px;
+	width: 600px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px
+}
+
+.pro4 {
+
+	background-color: rgb(59, 56, 56);
+	height: 370px;
+	width: 600px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px
+}
